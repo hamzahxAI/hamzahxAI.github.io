@@ -1,13 +1,13 @@
 # ─────────────────────────────────────────────
 #  Site Settings
 # ─────────────────────────────────────────────
-title: "Your Name"
-tagline: "Data Scientist · ML Researcher · Open Source Contributor"
+title: "Hamzah Pandith"
+tagline: "Sales and Strategy · Solution Architecture · Data Scientist Data Scientist · ML Researcher · Open Source Contributor"
 description: >-
-  Personal site of [Your Name] — machine learning engineer focused on NLP,
+  Personal site of Hamzah Pandith — machine learning engineer focused on NLP,
   deep learning, and production ML systems.
 
-url: "https://yourname.github.io"
+url: "https://hamzahxai.github.io"
 baseurl: ""
 
 # ─────────────────────────────────────────────
@@ -24,18 +24,18 @@ theme_mode: dark
 #  Author
 # ─────────────────────────────────────────────
 github:
-  username: yourusername
+  username: hamzahxai.github.io
 
 twitter:
-  username: yourhandle       # optional — remove if unused
+  username: hamzahxai       # optional — remove if unused
 
 social:
-  name: "Your Name"
-  email: "you@email.com"
+  name: "Hamzah Pandith"
+  email: "hpandith@outlook.com"
   links:
-    - https://github.com/yourusername
-    - https://linkedin.com/in/yourprofile
-    - https://twitter.com/yourhandle    # optional
+    - https://github.com/hamzahxai
+    - https://linkedin.com/in/hpandith
+  
 
 # ─────────────────────────────────────────────
 #  Avatar / Profile Photo
