@@ -1,3 +1,110 @@
-theme: jekyll-theme-minimal
-title: Hamzah's homepage
-description: Bookmark this to keep an eye on my project updates!
+# ─────────────────────────────────────────────
+#  Site Settings
+# ─────────────────────────────────────────────
+title: "Your Name"
+tagline: "Data Scientist · ML Researcher · Open Source Contributor"
+description: >-
+  Personal site of [Your Name] — machine learning engineer focused on NLP,
+  deep learning, and production ML systems.
+
+url: "https://yourname.github.io"
+baseurl: ""
+
+# ─────────────────────────────────────────────
+#  Theme — Chirpy (dark, techy, fast)
+#  https://github.com/cotes2020/jekyll-theme-chirpy
+# ─────────────────────────────────────────────
+theme: jekyll-theme-chirpy
+
+# Force dark mode by default (Chirpy feature)
+# Options: light | dark
+theme_mode: dark
+
+# ─────────────────────────────────────────────
+#  Author
+# ─────────────────────────────────────────────
+github:
+  username: yourusername
+
+twitter:
+  username: yourhandle       # optional — remove if unused
+
+social:
+  name: "Your Name"
+  email: "you@email.com"
+  links:
+    - https://github.com/yourusername
+    - https://linkedin.com/in/yourprofile
+    - https://twitter.com/yourhandle    # optional
+
+# ─────────────────────────────────────────────
+#  Avatar / Profile Photo
+# ─────────────────────────────────────────────
+avatar: "/assets/img/avatar.jpg"   # place your photo here
+
+# ─────────────────────────────────────────────
+#  Navigation (Chirpy sidebar)
+# ─────────────────────────────────────────────
+# Chirpy auto-generates nav from your _tabs/ pages.
+# Create these files: _tabs/about.md, _tabs/projects.md, _tabs/blog.md
+
+# ─────────────────────────────────────────────
+#  Analytics (optional)
+# ─────────────────────────────────────────────
+google_analytics:
+  id: "G-XXXXXXXXXX"              # paste your GA4 ID here
+
+# ─────────────────────────────────────────────
+#  Comments (optional — utterances uses GitHub Issues)
+# ─────────────────────────────────────────────
+comments:
+  active: utterances
+  utterances:
+    repo: "yourusername/yourusername.github.io"
+    issue_term: pathname
+
+# ─────────────────────────────────────────────
+#  SEO / Open Graph
+# ─────────────────────────────────────────────
+twitter_card: summary_large_image
+
+# ─────────────────────────────────────────────
+#  Build Settings
+# ─────────────────────────────────────────────
+timezone: "Europe/Dublin"          # your timezone
+lang: "en"
+
+markdown: kramdown
+highlighter: rouge                 # syntax highlighting for code blocks
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true           # show line numbers in code blocks
+
+# ─────────────────────────────────────────────
+#  Pagination
+# ─────────────────────────────────────────────
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# ─────────────────────────────────────────────
+#  Plugins
+# ─────────────────────────────────────────────
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# ─────────────────────────────────────────────
+#  Exclude from build
+# ─────────────────────────────────────────────
+exclude:
+  - "*.gem"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "node_modules"
+  - "vendor"
