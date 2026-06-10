@@ -11,12 +11,12 @@ url: "https://hamzahxai.github.io"
 baseurl: ""
 
 # ─────────────────────────────────────────────
-#  Theme — Chirpy (dark, techy, fast)
-#  https://github.com/cotes2020/jekyll-theme-chirpy
+#  Theme — hacker (dark, techy, fast)
+#  https://github.com/cotes2020/jekyll-theme-hacker
 # ─────────────────────────────────────────────
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-hacker
 
-# Force dark mode by default (Chirpy feature)
+# Force dark mode by default (hacker feature)
 # Options: light | dark
 theme_mode: dark
 
@@ -43,9 +43,9 @@ social:
 avatar: "/assets/img/avatar.jpg"   # place your photo here
 
 # ─────────────────────────────────────────────
-#  Navigation (Chirpy sidebar)
+#  Navigation (hacker sidebar)
 # ─────────────────────────────────────────────
-# Chirpy auto-generates nav from your _tabs/ pages.
+# hacker auto-generates nav from your _tabs/ pages.
 # Create these files: _tabs/about.md, _tabs/projects.md, _tabs/blog.md
 
 # ─────────────────────────────────────────────
